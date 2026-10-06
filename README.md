@@ -18,9 +18,7 @@
 
 ## Download
 
-Open the [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases) page and download the latest versioned Windows ZIP:
-
-`tes3np-v0.1.17-alpha-windows.zip`
+Open the [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases) page and download the latest versioned Windows ZIP.
 
 Example: `tes3np-v0.1.17-alpha-windows.zip`
 
