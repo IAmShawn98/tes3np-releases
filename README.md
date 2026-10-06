@@ -15,7 +15,6 @@
 - **Macro Manager** — Import, run, stop, and remove AutoHotkey macros, including supported ZIP macro packages.
 - **Portable Character Backups** — Export character and launcher settings to a portable backup and import them on another computer.
 - **Automatic Updates** — Check for new tes3np releases and safely download, verify, and install launcher updates.
-- **Nerevarine Prophecies Wiki Access** — Open the [Nerevarine Prophecies Wiki](https://wiki.nerevarineprophecies.com/) directly from the launcher.
 
 ## Download
 
@@ -47,11 +46,6 @@ When a newer version is available, tes3np can download, verify, and install the 
 
 For a manual update, download the newest versioned Windows ZIP from [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases), extract it, and replace your existing tes3np installation with the new version.
 
-## Release Channels
-
-- **Alpha:** Early releases under active development.
-- **Beta:** More complete releases undergoing final testing.
-- **Stable:** General releases recommended for normal use.
 
 ## Troubleshooting
 
