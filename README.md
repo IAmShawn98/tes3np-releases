@@ -4,6 +4,19 @@
 
 ![tes3np launcher](images/Launcher.png)
 
+## Features
+
+- **Character Management** — Save up to 10 characters and launch them individually or from a selected default.
+- **Automatic Login** — Launch saved characters and automatically enter their login credentials using configurable timing.
+- **Crash Recovery** — Automatically relaunch a character if its TES3MP client closes or crashes. Recovery can be enabled or disabled per character.
+- **Launch All** — Cycle through multiple saved characters automatically, launching them one at a time in list order.
+- **Daily Login Scheduling** — Schedule saved characters for daily login from Manage Characters.
+- **Built-in Patcher** — Apply supported Nerevarine Prophecies launcher patches without manually replacing files.
+- **Macro Manager** — Import, run, stop, and remove AutoHotkey macros, including supported ZIP macro packages.
+- **Portable Character Backups** — Export character and launcher settings to a portable backup and import them on another computer.
+- **Automatic Updates** — Check for new tes3np releases and safely download, verify, and install launcher updates.
+- **Nerevarine Prophecies Wiki Access** — Open the [Nerevarine Prophecies Wiki](https://wiki.nerevarineprophecies.com/) directly from the launcher.
+
 ## Download
 
 Open the [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases) page and download the latest versioned Windows ZIP:
