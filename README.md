@@ -4,7 +4,7 @@
 
 ## Download
 
-Open the **Releases** page and download the latest versioned Windows ZIP:
+Open the [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases) page and download the latest versioned Windows ZIP:
 
 `tes3np-v[version]-windows.zip`
 
@@ -14,13 +14,13 @@ Files named `tes3np-windows.zip`, `tes3np-windows.zip.sha256`, and `tes3np-updat
 
 ## Requirements
 
-- Morrowind Game of the Year Edition
-- TES3MP 0.8.1 Win64
+- [Morrowind Game of the Year Edition](https://en.uesp.net/wiki/Morrowind:Morrowind)
+- [TES3MP 0.8.1 Win64](https://github.com/TES3MP/TES3MP/releases/tag/tes3mp-0.8.1)
 - Windows
 
 ## Install
 
-1. Download the latest `tes3np-v[version]-windows.zip` from **Releases**.
+1. Download the latest `tes3np-v[version]-windows.zip` from [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases).
 2. Extract the ZIP.
 3. Move the extracted `tes3np` folder into your TES3MP 0.8.1 Win64 folder.
 4. Do not move or remove individual files from the `tes3np` folder.
@@ -30,7 +30,7 @@ Files named `tes3np-windows.zip`, `tes3np-windows.zip.sha256`, and `tes3np-updat
 
 When a newer version is available, tes3np can download, verify, and install the update from the launcher.
 
-For a manual update, download the newest versioned Windows ZIP from **Releases**, extract it, and replace your existing tes3np installation with the new version.
+For a manual update, download the newest versioned Windows ZIP from [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases), extract it, and replace your existing tes3np installation with the new version.
 
 ## Release Channels
 
