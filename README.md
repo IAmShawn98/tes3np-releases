@@ -6,7 +6,7 @@
 
 Open the [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases) page and download the latest versioned Windows ZIP:
 
-`tes3np-v[version]-windows.zip`
+`tes3np-v0.1.17-alpha-windows.zip`
 
 Example: `tes3np-v0.1.17-alpha-windows.zip`
 
@@ -20,7 +20,7 @@ Files named `tes3np-windows.zip`, `tes3np-windows.zip.sha256`, and `tes3np-updat
 
 ## Install
 
-1. Download the latest `tes3np-v[version]-windows.zip` from [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases).
+1. Download the latest `tes3np-v0.1.17-alpha-windows.zip` from [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases).
 2. Extract the ZIP.
 3. Move the extracted `tes3np` folder into your TES3MP 0.8.1 Win64 folder.
 4. Do not move or remove individual files from the `tes3np` folder.
