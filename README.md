@@ -1,45 +1,43 @@
 # tes3np
 
-**tes3np — Nerevarine Prophecies Launcher** is the official Windows launcher for the Nerevarine Prophecies TES3MP server.
-
-This repository is the public home for **tes3np releases**, including Alpha, Beta, and stable builds.
+**tes3np** is the Windows launcher for the Nerevarine Prophecies TES3MP server. Official Alpha, Beta, and Stable builds are published in this repository.
 
 ## Download
 
-Download the latest Windows build from the **Releases** page.
+Open the **Releases** page and download the latest versioned Windows ZIP:
 
-The recommended download is the versioned Windows package, for example:
+`tes3np-v[version]-windows.zip`
 
-`tes3np-v0.1.17-alpha-windows.zip`
+Example: `tes3np-v0.1.17-alpha-windows.zip`
 
-## Installation
+Files named `tes3np-windows.zip`, `tes3np-windows.zip.sha256`, and `tes3np-update.json` are used by the automatic updater. For a manual installation, download the versioned Windows ZIP.
 
-1. Download the latest versioned Windows ZIP from this repository's **Releases** page.
-2. Extract the ZIP completely.
-3. Keep the included `tes3np` folder and all of its contents together.
-4. Place the `tes3np` folder inside your TES3MP 0.8.1 Win64 folder.
+## Requirements
+
+- Morrowind Game of the Year Edition
+- TES3MP 0.8.1 Win64
+- Windows
+
+## Install
+
+1. Download the latest `tes3np-v[version]-windows.zip` from **Releases**.
+2. Extract the ZIP.
+3. Move the extracted `tes3np` folder into your TES3MP 0.8.1 Win64 folder.
+4. Do not move or remove individual files from the `tes3np` folder.
 5. Run `tes3np.exe`.
 
-**Requirements:** Morrowind Game of the Year Edition and TES3MP 0.8.1 Win64.
+## Update
 
-## Updates
+When a newer version is available, tes3np can download, verify, and install the update from the launcher.
 
-tes3np can check for launcher updates and safely install newer releases when available.
-
-Release notes are included with each published version so you can see what changed before updating.
+For a manual update, download the newest versioned Windows ZIP from **Releases**, extract it, and replace your existing tes3np installation with the new version.
 
 ## Release Channels
 
-- **Alpha** — early public builds with new features and active testing.
-- **Beta** — more mature builds approaching stable release quality.
-- **Stable** — recommended releases intended for general use.
+- **Alpha:** Early releases under active development.
+- **Beta:** More complete releases undergoing final testing.
+- **Stable:** General releases recommended for normal use.
 
-## Reporting Problems
+## Troubleshooting
 
-If something fails, report the exact error message or provide a screenshot.
-
-Launcher logs and error logs can also be copied from the launcher's **AppData** tools when available.
-
-## Nerevarine Prophecies
-
-tes3np is built for the **Nerevarine Prophecies** TES3MP server and provides a dedicated launcher experience for connecting, managing characters, accessing server resources, and using supported launcher features.
+If the launcher reports an error, copy the relevant log from **AppData Settings** or take a screenshot of the error message and include it when reporting the problem.
