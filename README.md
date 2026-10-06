@@ -1,6 +1,6 @@
 # tes3np
 
-**tes3np** is the Windows launcher for the Nerevarine Prophecies TES3MP server. Official Alpha, Beta, and Stable builds are published in this repository.
+**tes3np** is a work-in-progress launcher and built-in patcher for the Morrowind server [Nerevarine Prophecies](https://wiki.nerevarineprophecies.com/).
 
 ## Download
 
