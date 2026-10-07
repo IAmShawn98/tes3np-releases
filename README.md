@@ -2,7 +2,7 @@
 
 **tes3np** is a work-in-progress launcher and built-in patcher for the Morrowind server [Nerevarine Prophecies](https://wiki.nerevarineprophecies.com/).
 
-![tes3np launcher](images/Launcher.png)
+![tes3np launcher](images/Launcher-v0.1.20.png)
 
 ## Features
 
