@@ -15,10 +15,10 @@ let timer;
 let touchStart;
 
 function showSlide(offset, announce) {
-  slides[slideIndex].hidden = true;
+  slides[slideIndex].setAttribute('aria-hidden', 'true');
   slideIndex = (slideIndex + offset + slides.length) % slides.length;
   const slide = slides[slideIndex];
-  slide.hidden = false;
+  slide.removeAttribute('aria-hidden');
   title.textContent = slide.dataset.title;
   version.textContent = slide.dataset.version;
   counter.textContent = (slideIndex + 1) + ' / ' + slides.length;
@@ -30,7 +30,7 @@ function showSlide(offset, announce) {
 function scheduleRotation() {
   clearTimeout(timer);
   rotation.textContent = autoplay ? 'Pause' : 'Play';
-  if (autoplay && !pointerOver && !gallery.contains(document.activeElement) && !document.hidden) {
+  if (autoplay && !pointerOver && !gallery.querySelector(':focus-visible') && !document.hidden) {
     timer = setTimeout(() => {
       showSlide(1, false);
       scheduleRotation();
@@ -90,5 +90,9 @@ slideArea.addEventListener('pointerup', (event) => {
 });
 slideArea.addEventListener('pointercancel', () => { touchStart = undefined; });
 
+slides.forEach((slide, index) => {
+  if (index !== slideIndex) slide.setAttribute('aria-hidden', 'true');
+  slide.hidden = false;
+});
 controls.hidden = false;
 scheduleRotation();
