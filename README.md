@@ -14,6 +14,10 @@
 
 ## Download
 
+The recommended way to get TES3NP is to open the [TES3NP landing page](https://iamshawn98.github.io/tes3np-releases/) and click **Download for Windows**.
+
+### Download from GitHub Releases
+
 Open the [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases) page and download the latest versioned Windows ZIP.
 
 Example: `tes3np-v0.1.20-alpha-windows.zip`
