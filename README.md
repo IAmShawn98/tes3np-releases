@@ -1,5 +1,7 @@
 # tes3np
 
+> **Looking for the current release?** Use the [official TES3NP website](https://iamshawn98.github.io/tes3np/) or [GitHub Releases](https://github.com/IAmShawn98/tes3np/releases). This repository serves the one-time updater bridge for v0.1.20-alpha. The features and installation steps below describe the archived .20 build.
+
 **tes3np** is a work-in-progress launcher and built-in patcher for the Morrowind server [Nerevarine Prophecies](https://wiki.nerevarineprophecies.com/).
 
 ![tes3np launcher](images/Launcher-v0.1.20.png)
@@ -14,15 +16,9 @@
 
 ## Download
 
-The recommended way to get TES3NP is to open the [TES3NP landing page](https://iamshawn98.github.io/tes3np-releases/) and click **Download for Windows**.
+For the current Windows ZIP, click **Download for Windows** on the [official TES3NP website](https://iamshawn98.github.io/tes3np/) or choose the newest versioned ZIP from [GitHub Releases](https://github.com/IAmShawn98/tes3np/releases).
 
-### Download from GitHub Releases
-
-Open the [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases) page and download the latest versioned Windows ZIP.
-
-Example: `tes3np-v0.1.20-alpha-windows.zip`
-
-Files named `tes3np-windows.zip`, `tes3np-windows.zip.sha256`, and `tes3np-update.json` are used by the automatic updater. For a manual installation, download the versioned Windows ZIP.
+For an upgrade test or an archived installation, use [`tes3np-v0.1.20-alpha-windows.zip`](https://github.com/IAmShawn98/tes3np/releases/tag/v0.1.20-alpha). The legacy updater reads `tes3np-update.json` and downloads `tes3np-windows.zip` to install v0.1.21-alpha.
 
 ## Requirements
 
@@ -32,7 +28,7 @@ Files named `tes3np-windows.zip`, `tes3np-windows.zip.sha256`, and `tes3np-updat
 
 ## Install
 
-1. Download the latest `tes3np-v0.1.20-alpha-windows.zip` from [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases).
+1. Download `tes3np-v0.1.20-alpha-windows.zip` from the [archived .20 release](https://github.com/IAmShawn98/tes3np/releases/tag/v0.1.20-alpha).
 2. Extract the ZIP.
 3. Move the extracted `tes3np` folder into your TES3MP 0.8.1 Win64 folder.
 4. Do not move or remove individual files from the `tes3np` folder.
@@ -42,7 +38,7 @@ Files named `tes3np-windows.zip`, `tes3np-windows.zip.sha256`, and `tes3np-updat
 
 When a newer version is available, tes3np can download, verify, and install the update from the launcher.
 
-For a manual update, download the newest versioned Windows ZIP from [**Releases**](https://github.com/IAmShawn98/tes3np-releases/releases), extract it, and replace your existing tes3np installation with the new version.
+For a manual update, get the current Windows ZIP from the [official TES3NP website](https://iamshawn98.github.io/tes3np/) and follow the [player guide](https://github.com/IAmShawn98/tes3np/blob/main/docs/USER-GUIDE.md).
 
 
 ## Troubleshooting
